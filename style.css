@@ -120,3 +120,97 @@ body{
     color: gray;
     font-weight: 600;
 }
+.feature-companies{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10vh;
+}
+.feature-companies>h1{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.companies-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.company>h2{
+    font-size: 20px;
+}
+.icon-container{
+    border: 2px solid gray;
+    padding: 7px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.clt-section{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10vh;
+    background-image: url(./images/headway-5QgIuuBxKwM-unsplash.jpg);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.clt-section{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3rem;
+}
+.clt-text-section>h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.clt-text-section>p{
+    margin-bottom: 15px;
+}
+.email-container{
+    display: flex;
+    align-items: center;
+}
+.email-container>input{
+    width: 250px;
+    margin-right: 15px;
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 14px;
+}
+.email-container>button{
+    border: none;
+    background-color:blue;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.footer-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+}
+.footer-container>a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
