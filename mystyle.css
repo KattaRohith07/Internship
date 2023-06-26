@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    color: brown;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem;
+}
+.container img{
+    width: 200%;
+  height: 200%;
+  object-fit: cover;
+  display: block;
+}
+.img1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img2{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.img4{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.img5{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img1:hover{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+.img2:hover{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+.img3:hover{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+.img4:hover{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+.img5:hover{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}

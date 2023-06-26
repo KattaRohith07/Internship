@@ -119,3 +119,52 @@ body{
 .footer-container a:hover{
     background-image: linear-gradient(black,brown);
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 75vh;
+}
+img {
+ width:400px; 
+  height: 300px; 
+  object-fit:cover; 
+  margin-left: 100x;
+  margin-right: 100%;
+}
+img:hover{
+    width: 600px;
+    height: 305px;
+}
+p{
+    color:#ff0000;
+}
+
+.ab{
+    content: justify;
+    align-content: space-around;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    height: 450px;
+    flex-wrap: wrap
+}
+.ab button{
+    border: none;
+    background-color:blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-left: 40%;
+}
+.ab button:hover{
+    background-image: linear-gradient(brown,black);
+    width: 120px;
+    height: 40px;
+}
