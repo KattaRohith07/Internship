@@ -1,10 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html{
+    height: 100%;
+  margin: 0;
+  padding: 0;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  overflow-x: hidden;
+}
+main{
+    flex: 1;
 }
 .nav-bar{
     display: flex;
@@ -46,7 +54,6 @@ body{
 .nav ul li a:hover::after{
     width: 100%;
 }
-
 .nav ul button{
     margin-left: 15px;
     border: none;
@@ -118,6 +125,8 @@ body{
 }
 .footer-container a:hover{
     background-image: linear-gradient(black,brown);
+    width: 100px;
+    height: 20x;
 }
 .container{
     display: flex;
@@ -125,6 +134,7 @@ body{
     align-items: center;
     flex-direction: row-reverse;
     height: 75vh;
+    background-image: linear-gradient(black,white);
 }
 img {
  width:400px; 
@@ -139,6 +149,8 @@ img:hover{
 }
 p{
     color:#ff0000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
 }
 
 .ab{

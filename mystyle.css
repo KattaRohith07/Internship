@@ -1,6 +1,8 @@
 body{
     background-color: black;
     color: brown;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .container{
     display: grid;
