@@ -9,10 +9,9 @@ body{
   margin: 0;
   padding: 0;
   display: block;
-  background-image: url(https://media2.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif?cid=ecf05e47xswuiap38iz9yf7vi9ir7eq41gfubgxzudutb8aa&ep=v1_gifs_search&rid=giphy.gif&ct=g);
-  background-size:200%;
+  background-image: url("https://images.unsplash.com/photo-1626624340240-aadc087844fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
   background-repeat: no-repeat;
-  overflow-x: hidden;
+  background-size: cover;
 }
 main{
     flex: 1;
@@ -130,7 +129,7 @@ main{
 }
 .footer-container a{
     text-decoration: none;
-    color: gray;
+    color: black;
     margin-left: 5px;
     font-weight: 600;
     font-size: 14px;
