@@ -43,7 +43,11 @@ main{
     text-decoration: none;
     font-size: 16px;
     position: relative;
-    
+}
+.nav ul button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 .nav ul li a::after{
     content:  '';
