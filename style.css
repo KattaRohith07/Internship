@@ -9,6 +9,9 @@ body{
   margin: 0;
   padding: 0;
   display: block;
+  background-image: url(https://media2.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif?cid=ecf05e47xswuiap38iz9yf7vi9ir7eq41gfubgxzudutb8aa&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+  background-size:200%;
+  background-repeat: no-repeat;
   overflow-x: hidden;
 }
 main{
@@ -40,6 +43,7 @@ main{
     text-decoration: none;
     font-size: 16px;
     position: relative;
+    
 }
 .nav ul li a::after{
     content:  '';
@@ -53,6 +57,7 @@ main{
 }
 .nav ul li a:hover::after{
     width: 100%;
+    
 }
 .nav ul button{
     margin-left: 15px;
@@ -66,7 +71,10 @@ main{
     cursor: pointer;
 }
 .nav ul button:hover{
-    background-image: linear-gradient(brown,black);
+    width: 100px;
+    transform: scalex(2);
+    transform: scaleY(1);
+    overflow: hidden;
 }
 .hero-section{
     height: 60vh;
@@ -82,9 +90,11 @@ main{
     text-shadow: 1px 1px #ff0000;
 }
 .hero-text-section button:hover{
-    background-image: linear-gradient(brown,black);
     width: 150px;
     height: 45px;
+    transform: scalex(3);
+    transform: scaleY(1);
+    overflow: hidden;
 }
 .hero-text-section h1{
     font-size: 35px;
@@ -134,7 +144,6 @@ main{
     align-items: center;
     flex-direction: row-reverse;
     height: 75vh;
-    background-image: linear-gradient(black,white);
 }
 img {
  width:400px; 
@@ -146,9 +155,14 @@ img {
 img:hover{
     width: 600px;
     height: 305px;
+    transition: 0.5s;
+    transform: scaleX(2);
+    transform: scaleY(1);
+    overflow: hidden;
 }
+
 p{
-    color:#ff0000;
+    color:honeydew;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:bold;
 }
@@ -175,8 +189,13 @@ p{
     cursor: pointer;
     margin-left: 40%;
 }
+.ab a{
+    text-decoration: none;
+    color: white;
+}
 .ab button:hover{
     background-image: linear-gradient(brown,black);
     width: 120px;
     height: 40px;
+    transition: 0.5s;
 }

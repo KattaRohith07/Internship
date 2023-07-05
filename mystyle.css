@@ -1,20 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
     color: brown;
     overflow-x: hidden;
     overflow-y: hidden;
+    background-image: url(https://media4.giphy.com/media/fSRQtBAzrPokPCItuu/giphy.gif?cid=ecf05e47p2rj5tjk7gw1pxe4y8i41tgnkmpv7oak50xyuraj&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 1.5rem;
+    
 }
 .container img{
     width: 200%;
   height: 200%;
   object-fit: cover;
   display: block;
+  transition: 0.5s;
+  border: 2px solid white;
+
 }
 .img1{
     grid-column-start: 1;
@@ -50,24 +60,30 @@ body{
     width: 200px;
     height: 150px;
     cursor: pointer;
+    transition: 1s;
 }
 .img2:hover{
     width: 200px;
     height: 150px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .img3:hover{
     width: 200px;
     height: 150px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .img4:hover{
     width: 200px;
     height: 150px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .img5:hover{
-    width: 200px;
+    width: 100px;
     height: 150px;
     cursor: pointer;
+    transition: 0.5s;
+    transform: rotate(3);
 }
