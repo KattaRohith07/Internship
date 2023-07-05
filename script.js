@@ -6,14 +6,15 @@ function check() {
     var email = document.getElementById("s_email").value;
     var number = document.getElementById("number").value;
     var password = document.getElementById("s_password").value;
-    var conpassword= document.getElementById("s_password").value;
+    var confirmPassword = document.getElementById("confirm_password").value;
   
     // Check if all fields are filled
-    if (name !== "" && email !== "" && number !== "" && password !== "") {
+    if (name !== "" && email !== "" && number !== "" && password !== "" && confirmPassword!="") {
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         var mobileRegex = /^\d{10}$/;
         var usernameRegex = /^[a-zA-Z0-9_]{4,16}$/;
-        if(email.match(emailRegex)&&name.match(usernameRegex)&&number.match(mobileRegex))
+        var passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()\-=_+{}[\]|;:"<>,./?]).{6,}$/;
+        if(email.match(emailRegex)&&name.match(usernameRegex)&&number.match(mobileRegex)&&password.match(passwordRegex)&&password=== confirmPassword)
         {
             window.location.href = "job.html";
             

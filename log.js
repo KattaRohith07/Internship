@@ -4,11 +4,13 @@ function check() {
     // Get the input values
     var email = document.getElementById("s_email").value;
     var password = document.getElementById("s_password").value;
+    var confirmPassword = document.getElementById("confirm_password").value;
   
     // Check if all fields are filled
-    if (email !== "" && password !== "") {
+    if (email !== "" && password !== "" &&confirmPassword!="") {
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if(email.match(emailRegex)){
+
+        if(email.match(emailRegex)&&password=== confirmPassword){
             window.location.href = "job.html";
         }else{
             alert("Invalid Details!!");
