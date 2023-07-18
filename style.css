@@ -137,9 +137,7 @@ main{
     display: inline-block;
 }
 .footer-container a:hover{
-    background-image: linear-gradient(black,brown);
-    width: 100px;
-    height: 20x;
+    color: red;
 }
 .container{
     display: flex;
