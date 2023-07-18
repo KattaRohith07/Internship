@@ -1,92 +1,9 @@
-/* html{
-    scroll-behavior: smooth;
-}
 body{
-    background-color: black;
-    color: brown;
-    background-image: url(https://media4.giphy.com/media/fSRQtBAzrPokPCItuu/giphy.gif?cid=ecf05e47p2rj5tjk7gw1pxe4y8i41tgnkmpv7oak50xyuraj&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-image:url(https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=ecf05e47b9jxs4hrz8rr8lwi2m4rfu0kbk4yp01fmik9e7g6&ep=v1_gifs_search&rid=giphy.gif&ct=g);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
-.container{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 1.5rem;
-    
-}
-.container img{
-    width: 200%;
-  height: 200%;
-  object-fit: cover;
-  display: block;
-  transition: 0.5s;
-  border: 2px solid white;
-
-}
-
-.img1{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-.img2{
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-.img3{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 7;
-}
-.img4{
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 7;
-}
-.img5{
-    grid-column-start: 7;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-.img1:hover{
-    width: 200px;
-    height: 150px;
-    cursor: pointer;
-    transition: 1s;
-}
-.img2:hover{
-    width: 200px;
-    height: 150px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.img3:hover{
-    width: 200px;
-    height: 150px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.img4:hover{
-    width: 200px;
-    height: 150px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.img5:hover{
-    width: 100px;
-    height: 150px;
-    cursor: pointer;
-    transition: 0.5s;
-    transform: rotate(3);
-} */
-#portfolio{
+#jobs{
     padding: 50px 0;
 }
 .work-list{
@@ -94,11 +11,13 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    
 }
 .work{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    
 }
 .work img{
     width:100%;
@@ -139,14 +58,6 @@ body{
     text-align: center;
     margin-right: 20%;
 }
-.layer a{
-    margin-top: 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    text-align: center;
-    margin-right: 20%;
-}
 .work:hover img{
     transform: scale(1.1);
 }
@@ -166,4 +77,21 @@ body{
 }
 .btn:hover{
     background: #ff004f;
+}
+.layer button{
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20%;
+}
+.layer button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
