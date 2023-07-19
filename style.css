@@ -28,6 +28,7 @@ main{
 }
 .logo{
     color: white;
+    height: -20px;
 }
 .logo:hover{
     width: 190px;
@@ -82,7 +83,7 @@ main{
 }
 .hero-section{
     height: 60vh;
-    background-image: url("./kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg");
+    background-image: url("./images/mypageimg/sigmund-eTgMFFzroGc-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
