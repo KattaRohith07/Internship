@@ -9,7 +9,7 @@ body{
   margin: 0;
   padding: 0;
   display: block;
-  background-image: url("https://cutewallpaper.org/21/white-background-gif/%E2%96%B7-Abstract-Polygonal-Geometric-Background-white-Silver-.gif");
+  background-image: url("https://images.unsplash.com/photo-1690177930592-7b9313d9a53c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -131,7 +131,7 @@ main{
 }
 .footer-container a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin-left: 5px;
     font-weight: 600;
     font-size: 14px;

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-image: url(./images/mypageimg/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: wheat;
+        }
+
+        input, textarea {
+            width: 50%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid white;
+            background: transparent;
+            color: white;
+        }
+
+        textarea {
+            height: 100px;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-right: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white;">Apply Now</h1>
+    
+    <form id="jobApplicationForm">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="name">Last Name:</label>
+        <input type="text" id="name1" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills" name="skills" required>
+
+        <label for="resume">Resume/CV:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+        <label for="coverLetter">Cover Letter:</label>
+        <textarea id="coverLetter" name="coverLetter"></textarea>
+
+        <button type="submit" onclick="show()">Submit Application</button>
+    </form>
+    <div id="hi">
+        
+    </div>
+    <script>
+        function show(){
+            var fname = document.getElementById("name").value;
+            var lname = document.getElementById("name1").value;
+            var mail = document.getElementById("email").value;
+            var mob = document.getElementById("phone").value;
+            var skills = document.getElementById("skills").value;
+            var res = document.getElementById("resume").value;
+
+            if (fname !== "" && lname !== "" && mail !== "" && mob !== "" && skills !== "" && res !== "") {
+                document.getElementById("hi").innerText = "Hi, " + fname;
+                document.write("<h1>Applicant details</h1>");
+                document.write("<br>");
+                document.write(fname);
+                document.write("<br>");
+                document.write(lname);
+                document.write("<br>");
+                document.write(mail);
+                document.write("<br>");
+                document.write(mob);
+                document.write("<br>");
+                document.write(skills);
+                document.write("<br>");
+
+                // Set background color after submitting details
+                document.body.style.backgroundColor = "pink";
+                
+
+        }
+    }
+    </script>
+</body>
+</html>

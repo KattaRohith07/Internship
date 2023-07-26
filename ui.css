@@ -4,7 +4,7 @@ html{
 body{
     background-color: black;
     color: brown;
-    background-image: url(https://media4.giphy.com/media/fSRQtBAzrPokPCItuu/giphy.gif?cid=ecf05e47p2rj5tjk7gw1pxe4y8i41tgnkmpv7oak50xyuraj&ep=v1_gifs_search&rid=giphy.gif&ct=g); 
+    background-image:url(https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=ecf05e47b9jxs4hrz8rr8lwi2m4rfu0kbk4yp01fmik9e7g6&ep=v1_gifs_search&rid=giphy.gif&ct=g);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -38,7 +38,7 @@ nav ul li{
     font-weight: bolder;
 }
 nav ul li a{
-    color: brown;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     position: relative;
