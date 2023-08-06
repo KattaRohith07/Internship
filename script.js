@@ -20,7 +20,7 @@ function check() {
             
         }else{
             alert("Invalid Details!!");
-        }
+        } 
     } else {
       // Display an error message or perform any other validation logic
       alert("Please fill in all the details.");
