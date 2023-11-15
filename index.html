@@ -7,7 +7,8 @@
         <title>Register</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="login.css">  
+        <link rel="stylesheet" href="login.css"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script> 
         <script src="script.js">
         </script>  
     </head>
@@ -17,15 +18,16 @@
         <div class="signup">
 		<h2 class="form-title" id="signup">Sign up</h2>
 		<div class="form-holder">
+            <form action="" id="signup">
 			<input type="text" id="s_name" class="input" placeholder="Name" onfocus="myFunction(this)" />
 			<input type="email" id="s_email" class="input" placeholder="Email" onfocus="myFunction(this)"/>
             <input type="text" name="number" id="number" class="input" placeholder="Number" onfocus="myFunction(this)">
 			<input type="password" id="s_password" class="input" placeholder="Password" onfocus="myFunction(this)"/>
             <input type="password" id="confirm_password" class="input" placeholder="Confirm Password" onfocus="myFunction(this)"/>
-            
+            </form>
 		</div>
-		<button class="submit-btn" id="s-button" onclick="check()">Sign up</button><br>
-        <p>Existing user?<button class="submit-btn" id="s-button"><a href="signin.html" style="text-decoration: none;color: white;">Sign in</a> </button></p>
+		<button type="submit" class="submit-btn" id="s-button" onclick="check()">Sign up</button><br>
+        <p>Existing user?<button type="submit" class="submit-btn" id="s-button"><a href="signin.html" style="text-decoration: none;color: white;">Sign in</a> </button></p>
 	</div>
 </div>
 	
