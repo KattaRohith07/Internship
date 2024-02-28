@@ -5,12 +5,13 @@ html{
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100%;
-  margin: 0;
-  padding: 0;
+    /* height: 100%; */
+  /* margin: 0;
+  padding: 0; */
   display: block;
-  background-image: url("https://images.unsplash.com/photo-1690177930592-7b9313d9a53c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1551651057-f3f83700a831?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
   background-repeat: no-repeat;
+  background-color: white;
   background-size: cover;
   overflow-x: hidden;
 }
@@ -83,13 +84,13 @@ main{
 }
 .hero-section{
     height: 60vh;
-    background-image: url("./images/mypageimg/sigmund-eTgMFFzroGc-unsplash.jpg");
+    background-image: url("https://images.unsplash.com/photo-1541450805268-4822a3a774ca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .hero-text-section{
-    color: white;
+    color: black;
     margin-left: 4rem;
     margin-top: 4rem;
     text-shadow: 1px 1px #ff0000;
@@ -154,18 +155,19 @@ img {
   object-fit:cover; 
   margin-left: 100x;
   margin-right: 100%;
+  
 }
 img:hover{
     width: 600px;
     height: 305px;
     transition: 0.5s;
-    transform: scaleX(2);
-    transform: scaleY(1);
+    /* transform: scaleX(2);
+    transform: scaleY(1); */
     overflow: hidden;
 }
 
 p{
-    color:honeydew;
+    color:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:bold;
 }
